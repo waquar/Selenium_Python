@@ -6,7 +6,7 @@ path = 'D:\\Selenium_Addon_Files\\IEDriverServer.exe'
 a = []
 os.environ['webdriver.ie.driver'] = path
 driver = webdriver.Ie(path)
-driver.get('https://sp.hexaware.com/sites/tne/sitepages/expensehome.aspx')
+driver.get('someurl')
 time.sleep(4)
 handlealert = driver.switch_to.alert
 time.sleep(2)
