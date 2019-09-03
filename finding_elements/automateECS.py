@@ -23,7 +23,9 @@ for i in range(2, 32):
 
 total = list(map(int, a))
 a = (sum(total))
-b = a/12
 print(f"total money taken in ECS is {a}")
-print(f"monthly is {b}")
-print(f"total taken in shiftallowance is {250*308}")
+
+
+
+
+

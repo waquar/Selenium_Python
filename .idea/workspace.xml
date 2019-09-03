@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="632adb3e-2419-4770-9431-b3df3aa633a3" name="Default Changelist" comment="">
+    <list default="true" id="632adb3e-2419-4770-9431-b3df3aa633a3" name="Default Changelist" comment="automate ecs don">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finding_elements/automateECS.py" beforeDir="false" afterPath="$PROJECT_DIR$/finding_elements/automateECS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finding_elements/multiple_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/finding_elements/multiple_elements.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.controlexistingbrowser">
+  <component name="RunManager" selected="Python.implicitWait">
     <configuration name="automateECS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Selenium_Python_Git" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,6 +80,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opening_browsers/controlexistingbrowser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="implicitWait" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Selenium_Python_Git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/waitTypes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/waitTypes/implicitWait.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,35 +154,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="songplay_bycommand" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Selenium_Python_Git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/finding_elements" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finding_elements/songplay_bycommand.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.implicitWait" />
         <item itemvalue="Python.controlexistingbrowser" />
         <item itemvalue="Python.automateECS" />
         <item itemvalue="Python.multiple_elements" />
         <item itemvalue="Python.openingINTERNETEXPLORER" />
-        <item itemvalue="Python.songplay_bycommand" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +185,11 @@
       <workItem from="1567267651424" duration="1472000" />
       <workItem from="1567278867798" duration="2682000" />
       <workItem from="1567321132647" duration="1804000" />
-      <workItem from="1567355309375" duration="9730000" />
+      <workItem from="1567355309375" duration="9988000" />
+      <workItem from="1567369553486" duration="775000" />
+      <workItem from="1567410919587" duration="2384000" />
+      <workItem from="1567456521542" duration="476000" />
+      <workItem from="1567492538496" duration="2922000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1567072222388</created>
@@ -195,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567072222388</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="automate ecs done">
+      <created>1567366020670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567366020670</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,12 +226,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change" />
-    <option name="LAST_COMMIT_MESSAGE" value="change" />
+    <MESSAGE value="automate ecs done" />
+    <option name="LAST_COMMIT_MESSAGE" value="automate ecs done" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$multiple_elements.coverage" NAME="multiple_elements Coverage Results" MODIFIED="1567155208396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finding_elements" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$automateECS.coverage" NAME="automateECS Coverage Results" MODIFIED="1567284049012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finding_elements" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$controlexistingbrowser.coverage" NAME="controlexistingbrowser Coverage Results" MODIFIED="1567364296048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opening_browsers" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$implicitWait.coverage" NAME="implicitWait Coverage Results" MODIFIED="1567503366317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/waitTypes" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$openingINTERNETEXPLORER.coverage" NAME="openingINTERNETEXPLORER Coverage Results" MODIFIED="1567071819224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opening_browsers" />
   </component>
 </project>
