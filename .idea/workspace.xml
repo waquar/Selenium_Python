@@ -29,7 +29,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,8 +43,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.implicitWait">
-    <configuration name="automateECS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.automateECS">
+    <configuration name="automateECS" type="PythonConfigurationType" factoryName="Python">
       <module name="Selenium_Python_Git" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,6 +58,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finding_elements/automateECS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="calenderpick" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Selenium_Python_Git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Actions_Iframes_javascripthandler/calenderpick.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,35 +154,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="openingINTERNETEXPLORER" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Selenium_Python_Git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opening_browsers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opening_browsers/openingINTERNETEXPLORER.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.implicitWait" />
         <item itemvalue="Python.controlexistingbrowser" />
-        <item itemvalue="Python.automateECS" />
+        <item itemvalue="Python.calenderpick" />
+        <item itemvalue="Python.implicitWait" />
         <item itemvalue="Python.multiple_elements" />
-        <item itemvalue="Python.openingINTERNETEXPLORER" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +188,9 @@
       <workItem from="1567369553486" duration="775000" />
       <workItem from="1567410919587" duration="2384000" />
       <workItem from="1567456521542" duration="476000" />
-      <workItem from="1567492538496" duration="2922000" />
+      <workItem from="1567492538496" duration="5059000" />
+      <workItem from="1567577188999" duration="5000" />
+      <workItem from="1567583513179" duration="648000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1567072222388</created>
@@ -231,9 +232,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$multiple_elements.coverage" NAME="multiple_elements Coverage Results" MODIFIED="1567155208396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finding_elements" />
-    <SUITE FILE_PATH="coverage/Selenium_Python_Git$automateECS.coverage" NAME="automateECS Coverage Results" MODIFIED="1567284049012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finding_elements" />
-    <SUITE FILE_PATH="coverage/Selenium_Python_Git$controlexistingbrowser.coverage" NAME="controlexistingbrowser Coverage Results" MODIFIED="1567364296048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opening_browsers" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$automateECS.coverage" NAME="automateECS Coverage Results" MODIFIED="1567584243317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finding_elements" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$controlexistingbrowser.coverage" NAME="controlexistingbrowser Coverage Results" MODIFIED="1567584234546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opening_browsers" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$implicitWait.coverage" NAME="implicitWait Coverage Results" MODIFIED="1567503366317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/waitTypes" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$calenderpick.coverage" NAME="calenderpick Coverage Results" MODIFIED="1567507531014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$openingINTERNETEXPLORER.coverage" NAME="openingINTERNETEXPLORER Coverage Results" MODIFIED="1567071819224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opening_browsers" />
   </component>
 </project>
