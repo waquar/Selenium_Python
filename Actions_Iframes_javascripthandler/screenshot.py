@@ -21,8 +21,13 @@ login.click()
 filelocation = "D:\\Export_path\\1.png"
 
 try:
-    driver.save_screenshot(filelocation)
-    print(f"file saved at this location:-- {filelocation}")
+    if not os.path.isfile(filelocation):                      #checking if already same name file is there
+        driver.save_screenshot(filelocation)
+        print(f"file saved at this location:-- {filelocation}")
+        os.startfile(filelocation)                                         #used this to open the screenshot
+    else:
+        print("same name file is already present")
 except NotADirectoryError:
     print("not location issue")
-
+finally:
+    driver.close()
