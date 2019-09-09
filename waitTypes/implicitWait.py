@@ -14,7 +14,10 @@ driver.find_element(By.ID,'opentab').click()
 handles = driver.window_handles
 for handle in handles:
     if handle not in parenthandle:
-        driver.switch_to.window(handle)
+        driver.switch_to.window(handle)                     #going to new handle
         driver.get("https://www.youtube.com/watch?v=vq8goJQd9WE")
         print(driver.title)
+        if handle not in parenthandle:                   #again going back to original handle
+            driver.switch_to.window(parenthandle)
+            print(driver.title)
         driver.close()
