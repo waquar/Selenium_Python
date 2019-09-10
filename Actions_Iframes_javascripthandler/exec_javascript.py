@@ -12,6 +12,10 @@ class Javascriptexecution():
         driver.implicitly_wait(5)
         #driver.get("https://learn.letskodeit.com/p/practice")
         driver.execute_script("window.location = 'https://learn.letskodeit.com/p/practice';")       #used javascript
+        height = driver.execute_script("return window.innerHeight;")
+        width = driver.execute_script("return window.innerWidth;")
+        print("height is ", str(height))                                                       # used to check window size
+        print("width is ", str(width))
         element = driver.execute_script("return document.getElementById('name');")                 #used javascript
         element.send_keys('waquar')                                                                                               #used javascript
         time.sleep(3)
