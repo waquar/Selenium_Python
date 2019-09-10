@@ -14,7 +14,7 @@ driver.implicitly_wait(6)
 driver.find_element(By.XPATH, "//input[@id='package-departing-hp-package']").click()
 week = driver.find_element_by_xpath("//div[@class='datepicker-cal-month'][position()=2]")
 print(week)
-dates = week.find_elements(By.XPATH, "//div[@class= 'datepicker-cal-dates']")
+dates = week.find_elements(By.XPATH, ".//div[@class= 'datepicker-cal-dates']")
 print(len(dates))
 try:
     for date in dates:
