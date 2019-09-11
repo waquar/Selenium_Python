@@ -19,24 +19,23 @@ class Screenshots():
         password.send_keys('123ear')
         login.click()
         self.takescreenshots(driver)
+        driver.close()
 
 # Generic method
     def takescreenshots(self, driver):
         filelocation = "D:\\Export_path\\"
         filename = str(round(time.time() * 1000)) + ".png"
         finalfile = filelocation+filename
-
         try:
             driver.save_screenshot(finalfile)
             print("screenshot saved here  : ", filelocation)
             os.startfile(filelocation)
         except:
             print("not a location issue")
-        finally:
-            driver.close()
 
-screen = Screenshots()
-screen.test()
+if __name__ == '__main__':
+    screen = Screenshots()
+    screen.test()
 
 # try:
 #     if not os.path.isfile(filelocation):                      #checking if already same name file is there
