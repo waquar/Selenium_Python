@@ -1,0 +1,4 @@
+WARNING:root:check
+INFO:root:check info
+DEBUG:root:check debug
+ERROR:root:check error
