@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="632adb3e-2419-4770-9431-b3df3aa633a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actions_Iframes_javascripthandler/mousehover.py" beforeDir="false" afterPath="$PROJECT_DIR$/Actions_Iframes_javascripthandler/mousehover.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mousehover">
+  <component name="RunManager" selected="Python.slideroperation">
     <configuration name="automateECS" type="PythonConfigurationType" factoryName="Python">
       <module name="Selenium_Python_Git" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,6 +63,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finding_elements/automateECS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dragAnddrop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Selenium_Python_Git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Actions_Iframes_javascripthandler/dragAnddrop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="screenshot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="slideroperation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Selenium_Python_Git" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,29 +172,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Actions_Iframes_javascripthandler/screenshot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="scroll_Page" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Selenium_Python_Git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Actions_Iframes_javascripthandler/scroll_Page.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Actions_Iframes_javascripthandler/slideroperation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.slideroperation" />
+        <item itemvalue="Python.dragAnddrop" />
         <item itemvalue="Python.mousehover" />
         <item itemvalue="Python.jsalert_handle" />
         <item itemvalue="Python.javascript_alert" />
-        <item itemvalue="Python.screenshot" />
-        <item itemvalue="Python.scroll_Page" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +224,7 @@
       <workItem from="1568014970375" duration="9706000" />
       <workItem from="1568099846287" duration="7007000" />
       <workItem from="1568184847650" duration="9174000" />
-      <workItem from="1568270548462" duration="2793000" />
+      <workItem from="1568270548462" duration="4821000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1567072222388</created>
@@ -279,7 +280,9 @@
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$exec_javascript.coverage" NAME="exec_javascript Coverage Results" MODIFIED="1568107979100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$openingINTERNETEXPLORER.coverage" NAME="openingINTERNETEXPLORER Coverage Results" MODIFIED="1567071819224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opening_browsers" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$screenshot.coverage" NAME="screenshot Coverage Results" MODIFIED="1568191492211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$dragAnddrop.coverage" NAME="dragAnddrop Coverage Results" MODIFIED="1568282688530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$expedia_calender.coverage" NAME="expedia_calender Coverage Results" MODIFIED="1568099883091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$slideroperation.coverage" NAME="slideroperation Coverage Results" MODIFIED="1568283244066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$javascript_alert.coverage" NAME="javascript_alert Coverage Results" MODIFIED="1568191887073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$multiple_elements.coverage" NAME="multiple_elements Coverage Results" MODIFIED="1567155208396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finding_elements" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$automateECS.coverage" NAME="automateECS Coverage Results" MODIFIED="1567584243317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finding_elements" />

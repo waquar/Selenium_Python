@@ -6,7 +6,7 @@ from  selenium.webdriver import  ActionChains                      #used for hov
 
 class hover():
     def test(self):
-        os.environ['wendriver.chrome.driver'] = path
+        os.environ['webdriver.chrome.driver'] = path
         driver = webdriver.Chrome(path)
         driver.set_window_position(1400, 0)
         driver.maximize_window()
