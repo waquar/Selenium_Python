@@ -6,9 +6,9 @@ path= "D:\\Selenium_Addon_Files\\chromedriver.exe"
 
 os.environ['webdriver.chrome.driver'] = path
 driver = webdriver.Chrome(path)
-driver.set_window_position(1400,0)
+#driver.set_window_position(1400,0)
 driver.maximize_window()
-#driver.implicitly_wait(5)
+driver.implicitly_wait(5)
 driver.get("https://www.southwest.com/")
 
 city = driver.find_element_by_id("LandingAirBookingSearchForm_originationAirportCode")

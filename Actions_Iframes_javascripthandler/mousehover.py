@@ -18,16 +18,14 @@ class hover():
             action = ActionChains(driver)
             action.move_to_element(hoverbutton).perform()
             print("hovered mouse")
-            time.sleep(3)
-            link1 = driver.find_element(By.XPATH, ".//div[@class = 'mousehover']//a[text()='Reload']")
-            if link1.is_displayed():
-                print("xpath is correct")
-            else:
-                print("xpath not found")
-            action.move_to_element(link1).click().perform()
-            print("clicked item")
-        except:
-            print("some error")
+            time.sleep(7)
+            link1 = driver.find_element_by_xpath("//div[@class = 'mouse-hover']//a[text()='Reload']")
+            #print(len(link1))
+            link1.click()
+           # action.move_to_element(link1).click().perform()
+        except Exception as e:
+            print(str(e))
+
 
 h = hover()
 h.test()
