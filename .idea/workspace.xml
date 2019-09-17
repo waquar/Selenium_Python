@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="632adb3e-2419-4770-9431-b3df3aa633a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging_infrastructure/logging_infra.py" beforeDir="false" afterPath="$PROJECT_DIR$/logging_infrastructure/logging_infra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging_infrastructure/test.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python_Projects_Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/logging_infrastructure/logger.py" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
@@ -49,29 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.logger">
-    <configuration name="autocomplete" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Selenium_Python_Git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Actions_Iframes_javascripthandler/autocomplete.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in assertDemo.py">
     <configuration name="automateECS" type="PythonConfigurationType" factoryName="Python">
       <module name="Selenium_Python_Git" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,101 +70,96 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="format_logs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for pyunit.setup_teardownCLASS.Setup_TearDown" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Python_Git" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logging_infrastructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyunit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logging_infrastructure/format_logs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;pyunit.setup_teardownCLASS.Setup_TearDown&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for testcasedemo.TestcaseDemo" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Python_Git" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logging_infrastructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyunit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logging_infrastructure/logger.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcasedemo.TestcaseDemo&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="logging_infra" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in assertDemo.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Python_Git" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logging_infrastructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyunit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logging_infrastructure/logging_infra.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pyunit/assertDemo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="mousehover" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in setup_teardownCLASS.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Python_Git" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyunit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Actions_Iframes_javascripthandler/mousehover.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pyunit/setup_teardownCLASS.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in testcasedemo.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Python_Git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyunit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pyunit/testcasedemo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.automateECS" />
+      <item itemvalue="Python tests.Unittests in testcasedemo.py" />
+      <item itemvalue="Python tests.Unittests for testcasedemo.TestcaseDemo" />
+      <item itemvalue="Python tests.Unittests for pyunit.setup_teardownCLASS.Setup_TearDown" />
+      <item itemvalue="Python tests.Unittests in setup_teardownCLASS.py" />
+      <item itemvalue="Python tests.Unittests in assertDemo.py" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.logger" />
-        <item itemvalue="Python.format_logs" />
-        <item itemvalue="Python.logging_infra" />
-        <item itemvalue="Python.mousehover" />
-        <item itemvalue="Python.autocomplete" />
+        <item itemvalue="Python tests.Unittests in assertDemo.py" />
+        <item itemvalue="Python tests.Unittests in setup_teardownCLASS.py" />
+        <item itemvalue="Python tests.Unittests for pyunit.setup_teardownCLASS.Setup_TearDown" />
+        <item itemvalue="Python tests.Unittests for testcasedemo.TestcaseDemo" />
+        <item itemvalue="Python tests.Unittests in testcasedemo.py" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +209,10 @@
       <workItem from="1568406941334" duration="1255000" />
       <workItem from="1568539640029" duration="34000" />
       <workItem from="1568622576433" duration="3170000" />
-      <workItem from="1568628084830" duration="1699000" />
+      <workItem from="1568628084830" duration="2861000" />
+      <workItem from="1568700466119" duration="11000" />
+      <workItem from="1568706302018" duration="599000" />
+      <workItem from="1568708449431" duration="4379000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1567072222388</created>
@@ -297,22 +271,28 @@
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$scroll_Page.coverage" NAME="scroll_Page Coverage Results" MODIFIED="1568108662219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$mousehover.coverage" NAME="mousehover Coverage Results" MODIFIED="1568366837003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$controlexistingbrowser.coverage" NAME="controlexistingbrowser Coverage Results" MODIFIED="1567584234546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opening_browsers" />
-    <SUITE FILE_PATH="coverage/Selenium_Python_Git$logger.coverage" NAME="logger Coverage Results" MODIFIED="1568629496359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logging_infrastructure" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$logger.coverage" NAME="logger Coverage Results" MODIFIED="1568630406948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logging_infrastructure" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$implicitWait.coverage" NAME="implicitWait Coverage Results" MODIFIED="1567587993776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/waitTypes" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$exec_javascript.coverage" NAME="exec_javascript Coverage Results" MODIFIED="1568107979100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
-    <SUITE FILE_PATH="coverage/Selenium_Python_Git$openingINTERNETEXPLORER.coverage" NAME="openingINTERNETEXPLORER Coverage Results" MODIFIED="1567071819224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opening_browsers" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$screenshot.coverage" NAME="screenshot Coverage Results" MODIFIED="1568191492211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$Unittests_in___init___py.coverage" NAME="Unittests in __init__.py Coverage Results" MODIFIED="1568714842033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyunit" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$javascript_alert.coverage" NAME="javascript_alert Coverage Results" MODIFIED="1568191887073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$Unittests_in_testcasedemo_py.coverage" NAME="Unittests in testcasedemo.py Coverage Results" MODIFIED="1568715063059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyunit" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$multiple_elements.coverage" NAME="multiple_elements Coverage Results" MODIFIED="1567155208396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finding_elements" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$Unittests_for_setup_teardown_Setup_TearDown.coverage" NAME="Unittests for setup_teardown.Setup_TearDown Coverage Results" MODIFIED="1568715478670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyunit" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$jsalert_handle.coverage" NAME="jsalert_handle Coverage Results" MODIFIED="1568272562593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$logging_infra.coverage" NAME="logging_infra Coverage Results" MODIFIED="1568626553751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logging_infrastructure" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$Unittests_in_assertDemo_py.coverage" NAME="Unittests in assertDemo.py Coverage Results" MODIFIED="1568717119971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyunit" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$openingINTERNETEXPLORER.coverage" NAME="openingINTERNETEXPLORER Coverage Results" MODIFIED="1567071819224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opening_browsers" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$Unittests_in_setup_teardown_py.coverage" NAME="Unittests in setup_teardown.py Coverage Results" MODIFIED="1568715490889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyunit" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$dragAnddrop.coverage" NAME="dragAnddrop Coverage Results" MODIFIED="1568282688530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$slideroperation.coverage" NAME="slideroperation Coverage Results" MODIFIED="1568286286928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$expedia_calender.coverage" NAME="expedia_calender Coverage Results" MODIFIED="1568321167454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
-    <SUITE FILE_PATH="coverage/Selenium_Python_Git$javascript_alert.coverage" NAME="javascript_alert Coverage Results" MODIFIED="1568191887073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
-    <SUITE FILE_PATH="coverage/Selenium_Python_Git$multiple_elements.coverage" NAME="multiple_elements Coverage Results" MODIFIED="1567155208396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finding_elements" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$automateECS.coverage" NAME="automateECS Coverage Results" MODIFIED="1567584243317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/finding_elements" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$format_logs.coverage" NAME="format_logs Coverage Results" MODIFIED="1568628571665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logging_infrastructure" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$calenderpick.coverage" NAME="calenderpick Coverage Results" MODIFIED="1567507531014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
+    <SUITE FILE_PATH="coverage/Selenium_Python_Git$Unittests_for_testcasedemo_TestcaseDemo.coverage" NAME="Unittests for testcasedemo.TestcaseDemo Coverage Results" MODIFIED="1568715128456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyunit" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$autocomplete.coverage" NAME="autocomplete Coverage Results" MODIFIED="1568321305819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
-    <SUITE FILE_PATH="coverage/Selenium_Python_Git$jsalert_handle.coverage" NAME="jsalert_handle Coverage Results" MODIFIED="1568272562593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
     <SUITE FILE_PATH="coverage/Selenium_Python_Git$logging.coverage" NAME="logging Coverage Results" MODIFIED="1568286917616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logging_infrastructure" />
-    <SUITE FILE_PATH="coverage/Selenium_Python_Git$logging_infra.coverage" NAME="logging_infra Coverage Results" MODIFIED="1568626553751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logging_infrastructure" />
   </component>
 </project>
