@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="632adb3e-2419-4770-9431-b3df3aa633a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyunit/assertDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyunit/assertDemo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finding_elements/automateECS.py" beforeDir="false" afterPath="$PROJECT_DIR$/finding_elements/automateECS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finding_elements/byIDAnd_Name.py" beforeDir="false" afterPath="$PROJECT_DIR$/finding_elements/byIDAnd_Name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finding_elements/songplay_bycommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/finding_elements/songplay_bycommand.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyunit/testsuite.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyunit/testsuite.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testsuite">
+  <component name="RunManager" selected="Python.importfunction_otherpackage">
     <configuration name="automateECS" type="PythonConfigurationType" factoryName="Python">
       <module name="Selenium_Python_Git" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +68,48 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finding_elements/automateECS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demofirst" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Selenium_Python_Git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytest/demofirst.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="importfunction_otherpackage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Selenium_Python_Git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Actions_Iframes_javascripthandler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Actions_Iframes_javascripthandler/importfunction_otherpackage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -108,21 +153,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for assertDemo.AssertDemo.test_assertTrueFalse" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Python_Git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyunit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;assertDemo.AssertDemo.test_assertTrueFalse&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in assertDemo.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Python_Git" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,36 +168,21 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in setup_teardownCLASS.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Python_Git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyunit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pyunit/setup_teardownCLASS.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.automateECS" />
-      <item itemvalue="Python tests.Unittests in setup_teardownCLASS.py" />
-      <item itemvalue="Python tests.Unittests in assertDemo.py" />
-      <item itemvalue="Python tests.Unittests for assertDemo.AssertDemo.test_assertTrueFalse" />
-      <item itemvalue="Python tests.Unittests for assertDemo.AssertDemo.test_assertEqual" />
       <item itemvalue="Python.testsuite" />
+      <item itemvalue="Python.demofirst" />
+      <item itemvalue="Python.importfunction_otherpackage" />
+      <item itemvalue="Python tests.Unittests in assertDemo.py" />
+      <item itemvalue="Python tests.Unittests for assertDemo.AssertDemo.test_assertEqual" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.importfunction_otherpackage" />
+        <item itemvalue="Python.demofirst" />
         <item itemvalue="Python.testsuite" />
         <item itemvalue="Python tests.Unittests in assertDemo.py" />
         <item itemvalue="Python tests.Unittests for assertDemo.AssertDemo.test_assertEqual" />
-        <item itemvalue="Python tests.Unittests for assertDemo.AssertDemo.test_assertTrueFalse" />
-        <item itemvalue="Python tests.Unittests in setup_teardownCLASS.py" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +238,11 @@
       <workItem from="1568708449431" duration="4379000" />
       <workItem from="1568736838717" duration="514000" />
       <workItem from="1568789921259" duration="583000" />
-      <workItem from="1568797902531" duration="3507000" />
+      <workItem from="1568797902531" duration="3710000" />
+      <workItem from="1568925626916" duration="1258000" />
+      <workItem from="1568929951506" duration="71000" />
+      <workItem from="1568930052138" duration="6000" />
+      <workItem from="1568960270876" duration="698000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1567072222388</created>

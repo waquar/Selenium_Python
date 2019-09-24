@@ -1,0 +1,12 @@
+#   to run use py.test - -s
+# location> package > py.test -s . filename.py
+# ALWAYS USE FILE NAME AND METHODE NAME STARTING TEST_
+#-S IS USED FOR PRINTING STATEMENTS
+#-V IS FOR VERBOSE
+
+import pytest
+
+#@pytest.fixture()                          #used for one time call only beginning
+#@pytest.yield_fixture()                     #used to call  before an after using yield
+#you do not need @pytest.yield_fixture explicitly to use yield. after the recent updates pytest.fixture()      will also work
+

@@ -10,7 +10,7 @@ print(driver.title)
 a = ['7850' , '5000']
 totalvouchers =0
 
-for i in range(2, 32):
+for i in range(2, 34):
     xpath = "//table[@class='obj row20px']//tr[" + str(i) + "]//td[3]"
     amountElem = driver.find_element_by_xpath(xpath)
     print(amountElem.text)

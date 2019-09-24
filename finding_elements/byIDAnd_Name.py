@@ -1,5 +1,5 @@
-from selenium import  webdriver
-import  os
+from selenium import webdriver
+import os
 import time
 
 path = 'D:\\Selenium_Addon_Files\\chromedriver.exe'
@@ -21,12 +21,10 @@ class runTest():
         byName = driver.find_element_by_class_name('recaptcha-checkbox-border')
         if byName is not  None:
             print('Name data also there')
-        byName.click()           #Not clicking here
+        byName.click()             #Not clicking here
         time.sleep(3)
         driver.close()
 
 run = runTest()
 run.automate_urls('https://learn.letskodeit.com/p/practice')
-
-
 

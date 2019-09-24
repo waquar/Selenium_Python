@@ -27,15 +27,17 @@ class Automate():
         time.sleep(3)
         a = driver.find_element(By.XPATH, "//a[contains(@title, 'Justin Bieber – Despacito (Lyrics)')]")
         a.click()
-        r = sr.Recognizer()
-        with sr.Microphone() as source:
-            audio = r.listen(source, timeout= 60)
-            text = r.recognize_google(audio)
-            print(text)
-        with open('lyrics.txt', 'a') as songlyrics:
-            print('A')
-            songlyrics.write(text)
-            songlyrics.close()
+        try:
+            r = sr.Recognizer()
+            with sr.Microphone() as source:
+                audio = r.listen(source, timeout= 60)
+                text = r.recognize_google(audio)
+                print(text)
+            with open('lyrics.txt', 'a') as songlyrics:
+                print('A')
+                songlyrics.write(text)
+        except Exception as e:
+            print(e)
             driver.close()
 auto = Automate()
 auto.Runningyoutube()
